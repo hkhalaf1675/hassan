@@ -1,0 +1,79 @@
+<html>
+	<head>
+		<title>Learn the English letters</title>
+		<script src="../javascript/jquery3.2.1.min.js"></script>
+		<style>
+			body{
+				padding: 50px;
+				margin: 50px;
+				border: 2px solid black;
+				font-size: 20px;
+			}
+			input{
+				margin: 5px;
+				padding: 5px;
+				font-size: 16;
+				font-weight: bold;
+			}
+			#inpnum{
+				width: 150px;
+			}
+			ul{
+				list-style-type: none;
+				display: inline-block;
+			}
+			ul li{
+				background-color: #DDD;
+				border: 1px solid black;
+				margin: 5px;
+				padding: 5px;
+				display: inline-block;
+			}
+			div{
+				width: 700px;
+				margin: auto;
+			}
+			img{
+				margin: auto;
+				margin-top: 20px;
+			}
+			input[type="button"]{
+				width:200px;
+			}
+			table{
+				padding: 5px;
+				margin: 5px;
+				border : 1px solid black;
+			}
+			tr{
+				padding: 5px;
+				margin: 5px;
+				border : 1px solid black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 align="center">Learn the English Letters</h1>
+		<div align="center">
+			<form name="frm">
+				<i>Enter the number of letters you need : </i>
+				<input type="number" id="inpnum" max="26" min="1">
+				<input type="button" id="btngen" value="Generate">
+			</form>
+
+			<div id="uldiv"><ul id="charul">
+			</ul><br /></div>
+			<img id="chimg" src="" >	
+		</div>
+		<br /><br />
+		<div align="center">
+			<form id="frmshow">
+				<input type="submit" id="btnshow" value="Show Data">
+			</form>
+			<div id="showdiv">
+				
+			</div>
+		</div>
+		<script src="../javascript/projtest.js"></script>
+	</body>
+</html>
